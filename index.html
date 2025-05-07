@@ -4,24 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title>Weather App</title>
 </head>
 
 <body>
-  <form action="" class="weatherForm">
-    <input type="text" class="cityInput" placeholder="Enter City">
-    <button type="submit">Get Weather</button>
-  </form>
-  <div class="card" >
-    <h1 class="cityDisplay">City Name</h1>
-    <p class="temperatureDisplay"> Temperature °F</p>
-    <p class="humidityDisplay">Humidity %</p>
-    <p class="descriptionDisplay">Condition</p>
-    <p class="weatherEmoji">☀️</p>
-    <p class="errorDisplay">Please enter a city!</p>
-  </div>
-  <script src="script.js"> </script>
+  <header>
+    <!-- City Lookup -->
+    <form class="weatherForm">
+      <input type="text" class="cityInput" placeholder="Enter City">
+      <button type="submit">Get Weather</button>
+    </form>
+  </header>
+  <main>
+    <!-- Weather Card -->
+    <section class="card">
+      <h1 class="cityDisplay">City Name</h1>
+      <p class="temperatureDisplay"> Temperature °F</p>
+      <p class="humidityDisplay">Humidity %</p>
+      <p class="descriptionDisplay">Condition</p>
+      <p class="weatherEmoji">☀️</p>
+      <p class="errorDisplay">Please enter a city!</p>
+    </section>
+  </main>
+  <script src="./assets/JavaScript/script.js"> </script>
 </body>
 
 </html>

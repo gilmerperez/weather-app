@@ -1,8 +1,21 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  border: 1px solid red;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
   background: radial-gradient(circle, hsl(0, 0%, 100%) 50%, hsl(212, 100%, 74%) 100%);
   display: flex;
   align-items: center;
@@ -10,12 +23,10 @@ body {
   justify-content: center;
 }
 
-.weatherForm {
-  margin: 20px;
-}
+.weatherForm {}
 
 .cityInput {
-  width: 300px;
+  max-width: 300px;
   margin: 10px;
   padding: 10px;
   font-size: 2rem;
