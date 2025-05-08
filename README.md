@@ -1,4 +1,4 @@
-# Weather Widget
+# Weather App
 
 ## Project Summary
 
