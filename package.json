@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "**Weather Widget** is a dynamic, responsive web application that allows users to search for real-time weather data by city. Built with **HTML**, **CSS**, and **JavaScript**, it integrates with the **OpenWeather API** to deliver accurate and up-to-date weather information, including current conditions and a 5-day forecast.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilmerperez/weather-widget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilmerperez/weather-widget/issues"
+  },
+  "homepage": "https://github.com/gilmerperez/weather-widget#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
