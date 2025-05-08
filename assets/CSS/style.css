@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 html {
@@ -14,29 +13,28 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
-  background: radial-gradient(circle, hsl(0, 0%, 100%) 25%, hsl(212, 100%, 74%) 100%);
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+  background: radial-gradient(circle, hsl(0, 0%, 100%) 25%, hsl(212, 100%, 74%) 100%);
 }
 
 header {
-  top: 0;
-  width: 100%;
-  z-index: 1000;
   padding: 1rem;
-  position: sticky;
 }
 
 .weatherForm {
   gap: 1rem;
+  margin: 1rem;
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -44,7 +42,7 @@ header {
   padding: 1rem;
   max-width: 250px;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
   border-radius: 5px;
   border: 1px solid black;
@@ -56,7 +54,7 @@ header {
   cursor: pointer;
   max-width: 250px;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   border-radius: 5px;
   transition: 0.3s ease;
   border: 1px solid black;
@@ -71,18 +69,15 @@ header {
   .weatherForm {
     flex-direction: column;
   }
-
   .cityInput {
     text-align: center;
   }
-
   .cityInput, .weatherForm button {
     min-width: 100%;
   }
 }
 
 main {
-  flex: 1;
   width: 100%;
   display: flex;
   align-items: center;
@@ -93,6 +88,7 @@ main {
   padding: 2rem;
   text-align: center;
   border-radius: 0.5rem;
+  border: 1px solid black;
   background-color: white;
   color: hsl(0, 0%, 0%, 0.75);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
@@ -125,7 +121,6 @@ main {
 
 .weatherEmoji {
   font-size: 7rem;
-  margin-bottom: 1rem;
 }
 
 .errorDisplay{
@@ -137,23 +132,18 @@ main {
   .cityDisplay {
     font-size: 3rem;
   }
-
   .temperatureDisplay {
     font-size: 2rem;
   }
-
   .humidityDisplay{
     font-size: 2rem;
   }
-
   .descriptionDisplay{
     font-size: 2rem;
   }
-
   .weatherEmoji {
     font-size: 3rem;
   }
-
   .errorDisplay{
     font-size: 1.5rem;
   }
