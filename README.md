@@ -18,9 +18,9 @@ This project demonstrates how front-end technologies can be effectively combined
 
 The following image shows the web application's appearance and functionality:
 
-![Weather Widget App](./assets/images/sc1.jpg)
+![Weather Widget App](./public/assets/images/sc1.jpg)
 
-![Weather Widget App](./assets/images/sc2.jpg)
+![Weather Widget App](./public/assets/images/sc2.jpg)
 
 ## Instructions
 
