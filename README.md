@@ -2,11 +2,11 @@
 
 ## Project Summary
 
-**Weather Widget** is a dynamic, responsive web application that allows users to search for real-time weather data by city. Built with **HTML**, **CSS**, and **JavaScript**, it integrates with the **OpenWeather API** to deliver accurate and up-to-date weather information, including current conditions and a 5-day forecast.
+Weather Widget is a full-stack web application that allows users to search for real-time weather data by city. Built with HTML, CSS, and JavaScript on the frontend and Node.js/Express on the backend, it securely integrates with the OpenWeather API through an environment-protected proxy server.
 
-Designed with a clean, mobile-friendly interface, the application provides an intuitive user experience while showcasing best practices in API consumption, DOM manipulation, and responsive design. Users can input any city name, receive weather details instantly, and view relevant forecast data such as temperature, humidity, wind speed, and visual weather icons.
+The application features a clean, mobile-friendly interface that delivers accurate weather information including temperature, humidity, and conditions. The backend architecture demonstrates secure API key management using .env variables, preventing exposure in client-side code while maintaining seamless frontend functionality.
 
-This project demonstrates how front-end technologies can be effectively combined with external APIs to create a seamless and interactive user experience.
+This project showcases modern web development practices including REST API consumption, DOM manipulation, responsive design, and secure server-side API key handling. Users can input any city name and instantly receive weather data through the protected backend endpoint, which processes requests while keeping sensitive credentials secure.
 
 ## Table of Contents
 
