@@ -13,7 +13,6 @@ This project demonstrates how front-end technologies can be effectively combined
 - [Mock-Up](#mock-up)
 - [Instructions](#instructions)
 - [Key Features](#key-features)
-- [Deployed Application](#deployed-application)
 
 ## Mock-Up
 
@@ -35,7 +34,6 @@ To use this application, follow these simple steps:
 
 - View current weather data and 5-day forecast below.
 
-
 ## Key Features
 
 **Responsive Layout:** Clean, mobile-friendly UI that adapts to any screen size.
@@ -49,7 +47,3 @@ To use this application, follow these simple steps:
 **Middle-Centered Layout:** Ensures the search and display elements remain vertically centered on screen.
 
 **Real-Time API Integration:** Retrieves live weather data and 5-day forecasts from the OpenWeather API.
-
-## Deployed Application
-
-[Weather App](https://gilmerperez.github.io/weather-app/)
