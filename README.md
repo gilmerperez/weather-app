@@ -13,6 +13,7 @@ This project showcases modern web development practices including REST API consu
 - [Mock-Up](#mock-up)
 - [Instructions](#instructions)
 - [Key Features](#key-features)
+- [Deployed Aplication](#deployed-application)
 
 ## Mock-Up
 
@@ -47,3 +48,7 @@ To use this application, follow these simple steps:
 **Middle-Centered Layout:** Ensures the search and display elements remain vertically centered on screen.
 
 **Real-Time API Integration:** Retrieves live weather data and 5-day forecasts from the OpenWeather API.
+
+## Deployed Application
+
+[Weather App](https://weather-app-tqap.onrender.com)
